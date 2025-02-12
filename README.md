@@ -5,16 +5,16 @@ This project implements Retrieval-Augmented Generation (RAG) for classifying IR 
 This project implements Retrieval-Augmented Generation (RAG) for classifying IR code using LLMs.
 
 ## 📂 Project Structure
-IR-RAG-Classification/
-│── datasets/          # Store dataset files (IR code, embeddings, etc.)
-│── notebooks/         # Jupyter notebooks for RAG experiments
-│── src/               # Python scripts for IR processing & retrieval
-│── models/            # Store trained models
-│── logs/              # Logs for training & experiments
-│── README.md          # Project overview
-│── requirements.txt   # Dependencies
-│── .gitignore         # Ignore unnecessary files
-│── venv/              # Virtual environment
+
+- **datasets/**: This directory stores dataset files such as IR code, embeddings, and other related data.
+- **notebooks/**: Contains Jupyter notebooks for RAG (Retrieval-Augmented Generation) experiments.
+- **src/**: Python scripts for IR (Intermediate Representation) processing and retrieval.
+- **models/**: Stores trained models.
+- **logs/**: Logs for training and experiments.
+- **README.md**: Provides an overview of the project.
+- **requirements.txt**: Lists the project dependencies.
+- **.gitignore**: Specifies files and directories to be ignored by Git.
+- **venv/**: Virtual environment for the project.
 
 ## Installation
 ```bash
